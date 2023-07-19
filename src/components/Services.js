@@ -4,8 +4,9 @@ import { services } from "../data";
 const Services = () => {
   return <div>
     <section className="section services" id="services">
-    <div className="section-center services-center">
     <Title title='our' subtitle='services'/>
+    <div className="section-center services-center">
+   
     {
         services.map((service)=>{
             const {id,icon,title,text} = service;
